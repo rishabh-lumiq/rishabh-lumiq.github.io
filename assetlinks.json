@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.kotlintest",
+    "sha256_cert_fingerprints":
+    ["5E:30:D9:D9:3F:68:0A:C0:42:81:6F:6F:9B:4E:25:21:AA:C1:3C:69:AC:A5:D8:7E:66:5C:FF:1B:03:89:09:1C"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://rishabh-lumiq.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.kotlintest",
+    "sha256_cert_fingerprints":
+    ["5E:30:D9:D9:3F:68:0A:C0:42:81:6F:6F:9B:4E:25:21:AA:C1:3C:69:AC:A5:D8:7E:66:5C:FF:1B:03:89:09:1C"]
+  }
+}]
